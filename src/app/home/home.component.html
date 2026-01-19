@@ -81,4 +81,84 @@
                 3</div>
         </div>
     </div>
-</div>
+
+    <!-- Form Layout Example -->
+    <div class="text-900 font-bold text-3xl my-5 text-center">Form Layout</div>
+    <div class="surface-card p-4 shadow-2 border-round">
+        <div class="grid formgrid p-fluid">
+            <div class="field col-12 md:col-6">
+                <label for="firstname2" class="font-medium text-900">Firstname</label>
+                <input type="text" pInputText class="p-inputtext p-component w-full" id="firstname2"
+                    placeholder="Firstname">
+            </div>
+            <div class="field col-12 md:col-6">
+                <label for="lastname2" class="font-medium text-900">Lastname</label>
+                <input type="text" pInputText class="p-inputtext p-component w-full" id="lastname2"
+                    placeholder="Lastname">
+            </div>
+            <div class="field col-12">
+                <label for="address" class="font-medium text-900">Address</label>
+                <textarea pInputTextarea class="p-inputtext p-component w-full" id="address" rows="4"></textarea>
+            </div>
+            <div class="field col-12 md:col-3">
+                <label for="city" class="font-medium text-900">City</label>
+                <input type="text" pInputText class="p-inputtext p-component w-full" id="city" placeholder="City">
+            </div>
+            <div class="field col-12 md:col-3">
+                <label for="state" class="font-medium text-900">State</label>
+                <select class="p-inputtext p-component w-full" id="state">
+                    <option>Arizona</option>
+                    <option>California</option>
+                    <option>Florida</option>
+                    <option>Ohio</option>
+                    <option>Washington</option>
+                </select>
+            </div>
+            <div class="field col-12 md:col-3">
+                <label for="zip" class="font-medium text-900">Zip</label>
+                <input type="text" pInputText class="p-inputtext p-component w-full" id="zip" placeholder="Zip">
+            </div>
+        </div>
+    </div>
+
+    <!-- Advanced Card Example -->
+    <div class="text-900 font-bold text-3xl my-5 text-center">Advanced Card</div>
+    <div class="flex justify-content-center">
+        <div class="surface-card shadow-2 border-round p-3" style="max-width: 450px;">
+            <div class="flex justify-content-between mb-3">
+                <div>
+                    <div class="text-900 font-medium text-xl mb-2">PrimeFlex Power</div>
+                    <div class="text-600">Unleash your design skills</div>
+                </div>
+                <div>
+                    <button class="p-2 border-circle p-button-text p-button-secondary bg-blue-50 text-blue-500">
+                        <i class="pi pi-bookmark text-xl"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="bg-gray-200 border-round mb-3 flex align-items-center justify-content-center"
+                style="height:200px">
+                <span class="text-600 font-bold">Image Placeholder</span>
+            </div>
+            <p class="text-700 line-height-3 m-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore.
+            </p>
+        </div>
+    </div>
+
+    <!-- Responsive Helpers Example -->
+    <div class="text-900 font-bold text-3xl my-5 text-center">Responsive Helpers</div>
+    <div class="surface-card p-4 shadow-2 border-round">
+        <div class="flex flex-column gap-3 text-center">
+            <div class="p-3 bg-red-100 text-red-900 border-round block md:hidden">
+                Visible only on Mobile (Hidden on Desktop)
+            </div>
+            <div class="p-3 bg-green-100 text-green-900 border-round hidden md:block">
+                Visible only on Desktop (Hidden on Mobile)
+            </div>
+            <div class="p-3 bg-yellow-100 text-yellow-900 border-round hidden lg:block">
+                Visible only on Large Screens
+            </div>
+        </div>
+    </div>
